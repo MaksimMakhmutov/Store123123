@@ -1,0 +1,80 @@
+{
+  "products": [
+    {
+      "id": "2",
+      "name": "Товар 2",
+      "price": 200,
+      "image": "https://via.placeholder.com/150",
+      "category": "Категория 2",
+      "description": "Описание товара 2"
+    },
+    {
+      "id": "3",
+      "name": "Товар 3",
+      "price": 300,
+      "image": "https://via.placeholder.com/150",
+      "category": "Категория 1",
+      "description": "Описание товара 3"
+    },
+    {
+      "id": "4",
+      "name": "Товар 4",
+      "price": 400,
+      "image": "https://via.placeholder.com/150",
+      "category": "Категория 3",
+      "description": "Описание товара 4"
+    },
+    {
+      "name": "Товар 322",
+      "price": 50,
+      "image": "https://via.placeholder.com/150",
+      "id": "5"
+    },
+    {
+      "name": "Я гений",
+      "price": 322,
+      "image": "А фиг тебе",
+      "id": "9dd3"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Категория 1"
+    },
+    {
+      "id": 2,
+      "name": "Категория 2"
+    },
+    {
+      "id": 3,
+      "name": "Категория 3"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "moderator",
+      "password": "moderator123",
+      "role": "moderator"
+    },
+    {
+      "id": 3,
+      "username": "user1",
+      "password": "user123",
+      "role": "user"
+    },
+    {
+      "id": 4,
+      "username": "user2",
+      "password": "user456",
+      "role": "user"
+    }
+  ]
+}
