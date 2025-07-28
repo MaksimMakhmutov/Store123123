@@ -31,49 +31,55 @@
       "id": "5"
     },
     {
-      "name": "Я гений",
-      "price": 322,
+      "name": "Я тупой",
+      "price": 3323232,
       "image": "А фиг тебе",
       "id": "9dd3"
     }
   ],
   "categories": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Категория 1"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Категория 2"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Категория 3"
     }
   ],
   "users": [
     {
-      "id": 1,
+      "id": 1753703419389123,
       "username": "admin",
       "password": "admin123",
       "role": "admin"
     },
     {
-      "id": 2,
-      "username": "moderator",
-      "password": "moderator123",
-      "role": "moderator"
-    },
-    {
-      "id": 3,
+      "id": 175370341938999,
       "username": "user1",
       "password": "user123",
       "role": "user"
     },
     {
-      "id": 4,
+      "id": 175370341938932,
       "username": "user2",
       "password": "user456",
+      "role": "user"
+    },
+    {
+      "id": 1753703419389,
+      "username": "admin@example.com",
+      "password": "password",
+      "role": "admin"
+    },
+    {
+      "id": 1753703671549,
+      "username": "123123",
+      "password": "password",
       "role": "user"
     }
   ]

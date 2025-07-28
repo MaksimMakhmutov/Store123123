@@ -6,9 +6,12 @@ import {
   HomePage,
   DetailPage,
   CartPage,
+  Login,
+  Register,
 } from './pages';
 import './App.css'; // Импортируем стили
 import { Navbar } from './components';
+import { AdminRoute } from './routes/AdminRoute';
 
 const App = () => {
   return (
@@ -19,8 +22,17 @@ const App = () => {
           <Route path="/cart" element={<CartPage />} />
           <Route path="/" element={<HomePage />} />
           <Route path="/products" element={<ProductPage />} />
-          <Route path="/admin" element={<AdminPage />} />
+          <Route
+            path="/admin"
+            element={
+              <AdminRoute>
+                <AdminPage />
+              </AdminRoute>
+            }
+          />
           <Route path="/products/:id" element={<DetailPage />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
         </Routes>
       </div>
     </Router>

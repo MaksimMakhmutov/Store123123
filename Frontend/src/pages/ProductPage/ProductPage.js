@@ -6,7 +6,7 @@ export const ProductPage = () => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-
+  console.log(products);
   useEffect(() => {
     const fetchProducts = async () => {
       try {
@@ -39,7 +39,7 @@ export const ProductPage = () => {
       <h2>Список товаров</h2>
       <div className="product-list">
         {products.map((product) => (
-          <ProductCard key={product.id} product={product} /> // Используем компонент карточки товара
+          <ProductCard key={product.id} {...product} />
         ))}
       </div>
     </div>
